@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ConectaFlow | Automação de Vendas no WhatsApp</title>
+  <meta name="description" content="Automatize seu atendimento e aumente vendas no WhatsApp com respostas rápidas e qualificação de leads." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Header fixo com navegação -->
+  <header class="header">
+    <div class="demo-banner">
+  Projeto demonstrativo para portfólio (HTML, CSS, JS). Botões simulados.
+</div>
+    <div class="container header__inner">
+      <div class="brand">
+        <div class="brand__logo" aria-hidden="true"></div>
+        <span class="brand__name">ConectaFlow</span>
+      </div>
+
+      <nav class="nav" aria-label="Navegação principal">
+        <a href="#beneficios" class="nav__link">Benefícios</a>
+        <a href="#como-funciona" class="nav__link">Como funciona</a>
+        <a href="#faq" class="nav__link">FAQ</a>
+      </nav>
+
+      <a class="btn btn--primary header__cta" href="#contato">Falar com especialista</a>
+
+      <!-- Botão menu mobile -->
+      <button class="menu-btn" type="button" aria-label="Abrir menu" aria-expanded="false">
+        <span class="menu-btn__bar"></span>
+        <span class="menu-btn__bar"></span>
+        <span class="menu-btn__bar"></span>
+      </button>
+    </div>
+
+    <!-- Menu mobile (aparece via JS) -->
+    <div class="mobile-nav" hidden>
+      <a href="#beneficios" class="mobile-nav__link">Benefícios</a>
+      <a href="#como-funciona" class="mobile-nav__link">Como funciona</a>
+      <a href="#faq" class="mobile-nav__link">FAQ</a>
+      <a href="#contato" class="mobile-nav__link mobile-nav__link--cta">Falar com especialista</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="badge">B2B • Automação • WhatsApp</p>
+          <h1>Automatize suas vendas no WhatsApp e responda clientes em segundos</h1>
+          <p class="hero__subtitle">
+            Atendimento 24/7, respostas automáticas e qualificação de leads — integrado ao seu WhatsApp para você vender mais com menos esforço.
+          </p>
+
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#contato">Quero automatizar meu WhatsApp</a>
+            <a class="btn btn--ghost" href="#como-funciona">Ver como funciona</a>
+          </div>
+
+          <ul class="hero__bullets">
+            <li>Respostas instantâneas para dúvidas frequentes</li>
+            <li>Captação e qualificação de leads automaticamente</li>
+            <li>Agendamentos e orçamentos sem “vai e volta”</li>
+          </ul>
+        </div>
+
+        <div class="hero__card" aria-label="Prévia do painel">
+          <div class="mock">
+            <div class="mock__top">
+              <div class="mock__dot"></div><div class="mock__dot"></div><div class="mock__dot"></div>
+            </div>
+            <div class="mock__body">
+              <p class="mock__title">Fluxo de atendimento</p>
+              <div class="mock__row"></div>
+              <div class="mock__row"></div>
+              <div class="mock__row mock__row--short"></div>
+              <div class="mock__stat">
+                <span>Leads qualificados</span>
+                <strong>+37%</strong>
+              </div>
+            </div>
+          </div>
+          <p class="hero__note">*Exemplo ilustrativo. Resultados variam por operação.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- BENEFÍCIOS -->
+    <section id="beneficios" class="section">
+      <div class="container">
+        <h2 class="section__title">Benefícios que geram resultado</h2>
+        <p class="section__subtitle">Menos tempo respondendo mensagens repetidas. Mais tempo vendendo.</p>
+
+        <div class="cards">
+          <article class="card reveal">
+            <h3>Resposta imediata</h3>
+            <p>Automatize dúvidas frequentes e reduza o tempo de espera do cliente.</p>
+          </article>
+          <article class="card reveal">
+            <h3>Leads qualificados</h3>
+            <p>Perguntas automáticas filtram o cliente certo antes do atendimento humano.</p>
+          </article>
+          <article class="card reveal">
+            <h3>Processo padronizado</h3>
+            <p>Scripts consistentes, sem erros e com linguagem alinhada ao seu negócio.</p>
+          </article>
+          <article class="card reveal">
+            <h3>Mais conversão</h3>
+            <p>CTAs claros e fluxo de atendimento pensado para fechar venda mais rápido.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMO FUNCIONA -->
+    <section id="como-funciona" class="section section--alt">
+      <div class="container">
+        <h2 class="section__title">Como funciona</h2>
+        <p class="section__subtitle">Um processo simples e replicável.</p>
+
+        <ol class="steps">
+          <li class="step reveal">
+            <span class="step__num">1</span>
+            <div>
+              <h3>Mapeamos seu atendimento</h3>
+              <p>Entendemos suas perguntas mais comuns e o caminho até a venda.</p>
+            </div>
+          </li>
+          <li class="step reveal">
+            <span class="step__num">2</span>
+            <div>
+              <h3>Configuramos automações</h3>
+              <p>Respostas, menus e regras para qualificação de leads e agendamentos.</p>
+            </div>
+          </li>
+          <li class="step reveal">
+            <span class="step__num">3</span>
+            <div>
+              <h3>Publicamos e ajustamos</h3>
+              <p>Testes reais, ajustes finos e melhorias para manter conversão alta.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato" class="section">
+      <div class="container contact">
+        <div>
+          <h2 class="section__title">Vamos automatizar seu WhatsApp?</h2>
+          <p class="section__subtitle">
+            Me diga seu segmento e o que você quer automatizar. Eu retorno com um plano simples e objetivo.
+          </p>
+          <ul class="checklist">
+            <li>Escopo fechado e claro</li>
+            <li>Entrega com teste e ajustes</li>
+            <li>Comunicação direta</li>
+          </ul>
+        </div>
+
+        <form class="form" id="leadForm">
+          <label class="form__label">
+            Nome
+            <input class="form__input" name="name" type="text" placeholder="Seu nome" required />
+          </label>
+
+          <label class="form__label">
+            WhatsApp
+            <input class="form__input" name="phone" type="tel" placeholder="(DDD) 9xxxx-xxxx" required />
+          </label>
+
+          <label class="form__label">
+            O que você quer automatizar?
+            <textarea class="form__textarea" name="message" rows="4" placeholder="Ex: orçamento, agendamento, dúvidas frequentes..." required></textarea>
+          </label>
+
+          <button class="btn btn--primary btn--full" type="submit">Enviar no WhatsApp</button>
+          <p class="form__hint">Ao enviar, abriremos uma conversa no WhatsApp com sua mensagem pronta.</p>
+
+          <p class="form__error" id="formError" hidden>Preencha todos os campos corretamente.</p>
+        </form>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section section--alt">
+      <div class="container">
+        <h2 class="section__title">Perguntas frequentes</h2>
+
+        <div class="faq" id="faqList">
+          <div class="faq__item">
+            <button class="faq__q" type="button" aria-expanded="false">
+              Funciona no WhatsApp Business?
+              <span class="faq__icon">+</span>
+            </button>
+            <div class="faq__a" hidden>
+              Sim. A automação pode ser integrada de acordo com o fluxo e a ferramenta escolhida.
+            </div>
+          </div>
+
+          <div class="faq__item">
+            <button class="faq__q" type="button" aria-expanded="false">
+              Em quanto tempo fica pronto?
+              <span class="faq__icon">+</span>
+            </button>
+            <div class="faq__a" hidden>
+              Depende do seu fluxo. Para casos simples, pode ficar pronto em poucos dias.
+            </div>
+          </div>
+
+          <div class="faq__item">
+            <button class="faq__q" type="button" aria-expanded="false">
+              Preciso de equipe para operar?
+              <span class="faq__icon">+</span>
+            </button>
+            <div class="faq__a" hidden>
+              Não. Você pode automatizar parte do atendimento e assumir apenas quando fizer sentido.
+            </div>
+          </div>
+        </div>
+
+        <div class="cta-box">
+        <p><strong>Pronto para começar?</strong> Clique e me chame no WhatsApp.</p>
+        <a id="ctaWhatsapp" class="btn btn--primary" href="#">Quero automatizar meu WhatsApp</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="brand brand--footer">
+        <div class="brand__logo" aria-hidden="true"></div>
+        <span class="brand__name">ConectaFlow</span>
+      </div>
+      <p class="footer__text">© <span id="year"></span> ConectaFlow. Projeto de portfólio.</p>
+    </div>
+  </footer>
+
+  <!-- Botão flutuante WhatsApp -->
+  <a class="wa-float" id="waFloat" href="#" aria-label="Abrir WhatsApp">
+    WhatsApp
+  </a>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
