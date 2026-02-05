@@ -1,0 +1,60 @@
+# ConectaFlow – Landing Page de Automação via WhatsApp
+
+Projeto demonstrativo desenvolvido com HTML, CSS e JavaScript puro, simulando uma landing page SaaS focada em automação de atendimento e vendas via WhatsApp.
+
+## 🎯 Objetivo
+
+Criar uma interface moderna, responsiva e funcional para demonstrar:
+
+- Estruturação de landing page corporativa
+- Design system básico com variáveis CSS
+- Componentização (cards, FAQ, CTA)
+- Interações com JavaScript (FAQ, menu mobile, validação de formulário)
+- Simulação de integração com WhatsApp (modo demo)
+
+---
+
+## 🚀 Tecnologias Utilizadas
+
+- HTML5 semântico
+- CSS3 (Flexbox, Grid, Variáveis CSS)
+- JavaScript Vanilla (DOM, eventos, validação, animações)
+- Google Fonts (Inter)
+
+---
+
+## 💡 Funcionalidades
+
+- Layout responsivo
+- Menu mobile funcional
+- FAQ com comportamento accordion
+- Validação de formulário
+- Simulação de envio para WhatsApp
+- Scroll suave entre seções
+- Animações reveal on scroll
+
+---
+
+## 📂 Estrutura do Projeto
+
+
+---
+
+## ⚠️ Observação
+
+Este projeto está configurado em modo demonstrativo para portfólio.
+Nenhum dado real é enviado e a integração com WhatsApp é simulada.
+
+---
+
+## 🌐 Deploy
+
+Acesse a versão online via GitHub Pages:
+
+(cole aqui o link depois que publicar)
+
+---
+
+## 📌 Autor
+
+Desenvolvido como projeto de estudo e portfólio por Luke.
